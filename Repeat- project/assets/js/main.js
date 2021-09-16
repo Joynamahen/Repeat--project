@@ -1,9 +1,4 @@
-/**
-* Template Name: Medilab - v4.3.0
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -34,7 +29,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -172,14 +167,14 @@
   }
 
   /**
-   * Initiate glightbox 
+   * Initiate glightbox
    */
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
   /**
-   * Initiate Gallery Lightbox 
+   * Initiate Gallery Lightbox
    */
   const galelryLightbox = GLightbox({
     selector: '.galelry-lightbox'
